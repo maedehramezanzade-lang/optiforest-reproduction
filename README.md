@@ -15,6 +15,7 @@ COMP8240 (Macquarie University, Session 2 2026) project by Maedeh Ramezanzadeh.
 | `src/shop_sim.py` | **New dataset I construct:** a small web shop plus a traffic simulator. Writes `access.log` and `labels.csv`. |
 | `src/build_shop_features.py` | Parses the access log into 16 features per session and attaches the labels. |
 | `src/prepare_creditcard.py` | Existing dataset: Kaggle *Credit Card Fraud* converted to the common format. |
+| `src/subsample_creditcard.py` | Stratified random subsample (same anomaly ratio), used because OptIForest is too slow on all 284,807 rows. |
 | `src/build_hdfs.py` | Second log dataset from LogHub (HDFS): Drain3 parsing, per-block features, published labels. |
 | `scripts/run_shop_pipeline.sh` | Runs the whole shop pipeline end to end. |
 | `notebooks/OptIForest_Recording_video.ipynb` | The notebook used for the project-update video (first version of the simulator). |
@@ -49,16 +50,23 @@ Paper Table 1 for AD: 77.4 (+/-0.7) and 43.8 (+/-3.1). "AUC score" is the mean A
 
 ## Results
 
-To be filled in from `results/*.json` after the final runs (15 runs each; OptIForest threshold tuned on the shop logs with a stated protocol). Not final yet.
+Mean +/- standard deviation over runs. All numbers come from `results/*.json` (OptIForest and Isolation Forest) and are explained in the report. OptIForest has no random seed in the authors' code, so its runs are not bit-for-bit repeatable; Isolation Forest uses seeds 0 to 14.
 
 | Dataset | OptIForest AUC-ROC | OptIForest AUC-PR | Isolation Forest AUC-ROC | Isolation Forest AUC-PR |
 |---|---|---|---|---|
-| AD (paper) | 0.7763 | 0.4590 | - | - |
-| Web shop (simulated) | tbd | tbd | tbd | tbd |
-| Credit card | tbd | tbd | tbd | tbd |
-| HDFS | tbd | tbd | tbd | tbd |
+| AD (paper data), threshold 403, 15 runs | 0.772 +/- 0.006 | 0.435 +/- 0.043 | 0.683 +/- 0.018 | 0.378 +/- 0.058 |
+| Web shop (simulated), threshold 100, 15 runs | 0.889 +/- 0.004 | 0.387 +/- 0.024 | 0.959 +/- 0.003 | 0.790 +/- 0.019 |
+| HDFS logs, threshold 200, 5 runs (IF: 15) | 0.762 +/- 0.007 | 0.167 +/- 0.020 | 0.792 +/- 0.005 | 0.540 +/- 0.005 |
+| Credit card fraud, all 284,807 rows | did not finish (see below) | did not finish | 0.949 +/- 0.002 | 0.137 +/- 0.024 |
+| Credit card fraud, 30,000-row subsample (52 frauds) | tbd | tbd | 0.971 +/- 0.002 | 0.218 +/- 0.056 |
+
+Paper Table 1 for AD (OptIForest): 77.4 +/- 0.7 (AUC-ROC) and 43.8 +/- 3.1 (AUC-PR). The authors' `demo.py` gave 77.63 +/- 0.54 and 45.90 +/- 3.42 in my run.
+
+Web-shop cut thresholds tried for OptIForest: 403, 200 and 100 (threshold 50 was started but did not finish); the results are in `results/shop_optiforest_thr*.json`. Threshold 100 was chosen after seeing these results on the same labels, so it is slightly optimistic.
+
+**Credit card, full data:** one OptIForest run on all 284,807 rows (threshold 200) had used about 9.5 hours of CPU on Colab when the runtime was reset, so no result exists. The subsample is made with `src/subsample_creditcard.py --n 30000 --seed 42` (same anomaly ratio as the full data).
 
 ## Known limitations
 
-* OptIForest's cut threshold is a free parameter; the paper tunes it per dataset. Until tuned, comparisons with Isolation Forest are preliminary.
+* OptIForest's cut threshold is a free parameter; the paper tunes it per dataset. I tried only a few values, so comparisons with Isolation Forest are preliminary.
 * Everything is unsupervised and evaluated on the same data it is fitted on (as in the authors' demo).
