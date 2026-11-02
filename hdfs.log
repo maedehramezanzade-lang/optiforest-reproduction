@@ -1,0 +1,7 @@
+run 1/5: AUC-ROC=0.7591  AUC-PR=0.1568  (318s)
+run 2/5: AUC-ROC=0.7634  AUC-PR=0.1824  (320s)
+run 3/5: AUC-ROC=0.7535  AUC-PR=0.1456  (290s)
+run 4/5: AUC-ROC=0.7620  AUC-PR=0.1513  (173s)
+run 5/5: AUC-ROC=0.7736  AUC-PR=0.1973  (211s)
+
+OptIForest on hdfs (threshold 200): AUC-ROC=0.7623 +/- 0.0066   AUC-PR=0.1667 +/- 0.0198

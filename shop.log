@@ -1,0 +1,29 @@
+Simulated 6000 visitor sessions -> 71876 requests logged in 113s
+  shopper       5200   
+  power_user     168   
+  crawler         72   
+  monitor         54   
+  scraper        113   ATTACK
+  brute_force    114   ATTACK
+  slow_brute      93   ATTACK
+  scanner         90   ATTACK
+  broken_bot      96   ATTACK
+Parsed requests: 71876 | sessions (clients): 6000
+Dataset shape: (6000, 16) (rows = sessions, columns = features)
+Attacks: 506 | Normal: 5494 | attack ratio: 8.43%
+Distinct feature patterns: 6000 out of 6000
+Saved data/shop_logs.csv and data/shop_logs_named.csv ; features: ['n_requests', 'duration_s', 'n_paths', 'n_templates', 'path_entropy', 'frac_post', 'n_401', 'n_404', 'frac_error', 'mean_gap_s', 'std_gap_s', 'min_gap_s', 'mean_ms', 'max_ms', 'mean_kbytes', 'requests_per_s']
+run 1/5: AUC-ROC=0.9601  AUC-PR=0.8041  (0.4s)
+run 2/5: AUC-ROC=0.9623  AUC-PR=0.8034  (0.4s)
+run 3/5: AUC-ROC=0.9580  AUC-PR=0.7897  (0.4s)
+run 4/5: AUC-ROC=0.9602  AUC-PR=0.8066  (0.4s)
+run 5/5: AUC-ROC=0.9564  AUC-PR=0.7905  (0.4s)
+
+Isolation Forest on shop: AUC-ROC=0.9594 +/- 0.0020   AUC-PR=0.7989 +/- 0.0072
+run 1/5: AUC-ROC=0.8873  AUC-PR=0.3632  (176s)
+run 2/5: AUC-ROC=0.8904  AUC-PR=0.3704  (182s)
+run 3/5: AUC-ROC=0.8790  AUC-PR=0.3665  (267s)
+run 4/5: AUC-ROC=0.8790  AUC-PR=0.3523  (357s)
+run 5/5: AUC-ROC=0.8686  AUC-PR=0.3471  (343s)
+
+OptIForest on shop (threshold 200): AUC-ROC=0.8809 +/- 0.0076   AUC-PR=0.3599 +/- 0.0088
