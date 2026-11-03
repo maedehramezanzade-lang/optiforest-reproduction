@@ -1,0 +1,7 @@
+run 1/5: AUC-ROC=0.9626  AUC-PR=0.8516  (74s)
+run 2/5: AUC-ROC=0.9600  AUC-PR=0.8244  (71s)
+run 3/5: AUC-ROC=0.9610  AUC-PR=0.8203  (73s)
+run 4/5: AUC-ROC=0.9641  AUC-PR=0.8356  (79s)
+run 5/5: AUC-ROC=0.9630  AUC-PR=0.8380  (74s)
+
+OptIForest on shop_scaled (threshold 100): AUC-ROC=0.9621 +/- 0.0015   AUC-PR=0.8340 +/- 0.0110
