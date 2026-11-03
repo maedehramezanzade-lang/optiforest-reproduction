@@ -58,13 +58,13 @@ Mean +/- standard deviation over runs. All numbers come from `results/*.json` (O
 | Web shop (simulated), threshold 100, 15 runs | 0.889 +/- 0.004 | 0.387 +/- 0.024 | 0.959 +/- 0.003 | 0.790 +/- 0.019 |
 | HDFS logs, threshold 200, 5 runs (IF: 15) | 0.762 +/- 0.007 | 0.167 +/- 0.020 | 0.792 +/- 0.005 | 0.540 +/- 0.005 |
 | Credit card fraud, all 284,807 rows | did not finish (see below) | did not finish | 0.949 +/- 0.002 | 0.137 +/- 0.024 |
-| Credit card fraud, 30,000-row subsample (52 frauds) | tbd | tbd | 0.971 +/- 0.002 | 0.218 +/- 0.056 |
+| Credit card fraud, 30,000-row subsample (52 frauds) | did not finish | did not finish | 0.971 +/- 0.002 | 0.218 +/- 0.056 |
 
 Paper Table 1 for AD (OptIForest): 77.4 +/- 0.7 (AUC-ROC) and 43.8 +/- 3.1 (AUC-PR). The authors' `demo.py` gave 77.63 +/- 0.54 and 45.90 +/- 3.42 in my run.
 
 Web-shop cut thresholds tried for OptIForest: 403, 200 and 100 (threshold 50 was started but did not finish); the results are in `results/shop_optiforest_thr*.json`. Threshold 100 was chosen after seeing these results on the same labels, so it is slightly optimistic.
 
-**Credit card, full data:** one OptIForest run on all 284,807 rows (threshold 200) had used about 9.5 hours of CPU on Colab when the runtime was reset, so no result exists. The subsample is made with `src/subsample_creditcard.py --n 30000 --seed 42` (same anomaly ratio as the full data).
+**Credit card, full data:** one OptIForest run on all 284,807 rows (threshold 200) had used more than 9 hours of CPU on Colab when the runtime was reset, so no result exists. Runs on 30,000- and 10,000-row subsamples (raw features, threshold 200) had printed no finished run after about 2.5 and 1.5 hours of CPU when the Colab runtime was reset. I did not find the cause; unscaled `Time` and `Amount` are one untested possibility (see the scaling section below). The subsample is made with `src/subsample_creditcard.py --n 30000 --seed 42` (same anomaly ratio as the full data).
 
 ## Known limitations
 
