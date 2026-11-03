@@ -70,3 +70,14 @@ Web-shop cut thresholds tried for OptIForest: 403, 200 and 100 (threshold 50 was
 
 * OptIForest's cut threshold is a free parameter; the paper tunes it per dataset. I tried only a few values, so comparisons with Isolation Forest are preliminary.
 * Everything is unsupervised and evaluated on the same data it is fitted on (as in the authors' demo).
+
+## Feature scaling experiment (added 3 Nov 2026)
+OptIForest's hash uses Euclidean distance, so unscaled features with large ranges can dominate; Isolation Forest is scale-invariant.
+`src/standardise.py` standardises every column; results are in `results/scaling/` (web shop regenerated with seed 42, 5 runs, threshold 100; HDFS, 5 runs, threshold 200).
+
+| Data | Setting | AUC-ROC | AUC-PR |
+|---|---|---|---|
+| Web shop (regenerated) | OptIForest raw, 5 runs | 0.892 +/- 0.001 | 0.382 +/- 0.011 |
+| Web shop (regenerated) | OptIForest standardised, 5 runs | 0.962 +/- 0.002 | 0.834 +/- 0.011 |
+| Web shop (regenerated) | Isolation Forest, 15 runs | 0.959 +/- 0.003 | 0.796 +/- 0.016 |
+| HDFS | OptIForest standardised, 5 runs | 0.745 +/- 0.009 | 0.186 +/- 0.014 |
