@@ -1,0 +1,242 @@
+{
+ "S01": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S02": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S03": {
+  "label": "attack",
+  "reason": "5 failed logins after browsing"
+ },
+ "S04": {
+  "label": "attack",
+  "reason": "sequential 404 product-ID enumeration"
+ },
+ "S05": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S06": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S07": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S08": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S09": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S10": {
+  "label": "attack",
+  "reason": "scanner paths (/.env, /.git, wp-login)"
+ },
+ "S11": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S12": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S13": {
+  "label": "attack",
+  "reason": "77 rapid product fetches (scraper)"
+ },
+ "S14": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S15": {
+  "label": "attack",
+  "reason": "9 failed logins only"
+ },
+ "S16": {
+  "label": "attack",
+  "reason": "/admin and /.env probes mixed into browsing"
+ },
+ "S17": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S18": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S19": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S20": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S21": {
+  "label": "attack",
+  "reason": "fast product crawl (~15 req/s), low confidence"
+ },
+ "S22": {
+  "label": "attack",
+  "reason": "60 rapid product fetches (scraper)"
+ },
+ "S23": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S24": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S25": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S26": {
+  "label": "attack",
+  "reason": "scanner probes mixed into browsing"
+ },
+ "S27": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S28": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S29": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S30": {
+  "label": "attack",
+  "reason": "7 failed logins"
+ },
+ "S31": {
+  "label": "attack",
+  "reason": "fast product crawl, low confidence"
+ },
+ "S32": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S33": {
+  "label": "attack",
+  "reason": "5 failed logins after browsing"
+ },
+ "S34": {
+  "label": "attack",
+  "reason": "7 failed logins"
+ },
+ "S35": {
+  "label": "attack",
+  "reason": "6 failed logins"
+ },
+ "S36": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S37": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S38": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S39": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S40": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S41": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S42": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S43": {
+  "label": "attack",
+  "reason": "78 rapid product fetches (scraper)"
+ },
+ "S44": {
+  "label": "attack",
+  "reason": "4 failed logins mixed into browsing, low confidence"
+ },
+ "S45": {
+  "label": "attack",
+  "reason": "4 failed logins then success, low confidence"
+ },
+ "S46": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S47": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S48": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S49": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S50": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S51": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S52": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S53": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S54": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S55": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S56": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S57": {
+  "label": "attack",
+  "reason": "scanner paths"
+ },
+ "S58": {
+  "label": "attack",
+  "reason": "404 ID enumeration"
+ },
+ "S59": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ },
+ "S60": {
+  "label": "normal",
+  "reason": "ordinary shopping flow"
+ }
+}
