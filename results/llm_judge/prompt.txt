@@ -1,0 +1,7 @@
+You are an annotator of web-server traffic for a security-research dataset.
+
+You are given 60 sessions from the access log of a small web shop (pages: /products, /product/<id>, /search?q=, /cart, /login, /checkout). Each session is the sequence of requests of one client: time offset, method, path, HTTP status, response size and response time. Sessions longer than 40 requests are truncated.
+
+For EACH session decide whether it is an ATTACK (abusive or malicious automated behaviour, for example password guessing, scraping or crawling at machine speed, probing for hidden files, enumerating non-existent IDs) or NORMAL (a legitimate visitor or a harmless tool, for example a shopper, a heavy user, a search-engine crawler or an uptime monitor). Some attacks are subtle and hidden inside otherwise normal browsing.
+
+Use only the content of the sessions. Answer with one JSON object mapping each session id (S01..S60) to {"label": "attack" or "normal", "confidence": 1-3, "reason": "<one short sentence>"}.

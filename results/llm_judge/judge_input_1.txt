@@ -1,0 +1,1028 @@
+=== Session S01: 12 requests, duration 1.1 s ===
++   0.00s  POST /login                       -> 200  7 bytes  23 ms
++   0.02s  GET  /cart                        -> 200  960 bytes  17 ms
++   0.15s  GET  /product/122                 -> 200  2135 bytes  11 ms
++   0.24s  GET  /cart                        -> 200  960 bytes  11 ms
++   0.30s  GET  /product/9999                -> 404  9 bytes  19 ms
++   0.47s  GET  /search?q=item27             -> 200  2290 bytes  40 ms
++   0.54s  GET  /search?q=item31             -> 200  3745 bytes  37 ms
++   0.75s  GET  /cart                        -> 200  960 bytes  15 ms
++   0.79s  GET  /product/328                 -> 200  1903 bytes  12 ms
++   0.94s  GET  /product/9999                -> 404  9 bytes  18 ms
++   1.00s  GET  /products                    -> 200  1300 bytes  6 ms
++   1.12s  GET  /product/93                  -> 200  1774 bytes  18 ms
+
+=== Session S02: 10 requests, duration 0.9 s ===
++   0.00s  POST /login                       -> 200  7 bytes  14 ms
++   0.01s  GET  /product/220                 -> 200  2948 bytes  16 ms
++   0.18s  GET  /product/24                  -> 200  2587 bytes  16 ms
++   0.26s  GET  /product/185                 -> 200  2841 bytes  11 ms
++   0.36s  GET  /product/503                 -> 404  9 bytes  12 ms
++   0.43s  GET  /cart                        -> 200  960 bytes  14 ms
++   0.47s  GET  /search?q=item34             -> 200  3211 bytes  52 ms
++   0.60s  GET  /product/152                 -> 200  2587 bytes  18 ms
++   0.75s  GET  /search?q=item33             -> 200  3193 bytes  60 ms
++   0.94s  GET  /product/30                  -> 200  1593 bytes  7 ms
+
+=== Session S03: 8 requests, duration 0.8 s ===
++   0.00s  GET  /search?q=item26             -> 200  3928 bytes  39 ms
++   0.06s  GET  /products                    -> 200  1300 bytes  12 ms
++   0.19s  GET  /product/213                 -> 200  2682 bytes  19 ms
++   0.33s  POST /login                       -> 401  6 bytes  15 ms
++   0.48s  POST /login                       -> 401  6 bytes  11 ms
++   0.66s  POST /login                       -> 401  6 bytes  18 ms
++   0.75s  POST /login                       -> 401  6 bytes  11 ms
++   0.83s  POST /login                       -> 401  6 bytes  15 ms
+
+=== Session S04: 9 requests, duration 0.9 s ===
++   0.00s  GET  /product/25761               -> 404  9 bytes  17 ms
++   0.15s  GET  /product/61733               -> 404  9 bytes  17 ms
++   0.22s  GET  /product/28031               -> 404  9 bytes  16 ms
++   0.30s  GET  /product/47551               -> 404  9 bytes  9 ms
++   0.45s  GET  /product/36711               -> 404  9 bytes  10 ms
++   0.52s  GET  /product/52106               -> 404  9 bytes  18 ms
++   0.65s  GET  /product/26101               -> 404  9 bytes  17 ms
++   0.80s  GET  /product/80464               -> 404  9 bytes  9 ms
++   0.90s  GET  /product/51044               -> 404  9 bytes  17 ms
+
+=== Session S05: 7 requests, duration 0.5 s ===
++   0.00s  GET  /product/442                 -> 200  1711 bytes  7 ms
++   0.04s  GET  /search?q=item46             -> 200  3432 bytes  44 ms
++   0.17s  GET  /product/280                 -> 200  1531 bytes  7 ms
++   0.21s  GET  /search?q=item6              -> 200  2123 bytes  47 ms
++   0.37s  GET  /products                    -> 200  1300 bytes  10 ms
++   0.43s  GET  /cart                        -> 200  960 bytes  13 ms
++   0.49s  POST /checkout                    -> 200  12 bytes  25 ms
+
+=== Session S06: 13 requests, duration 1.3 s ===
++   0.00s  POST /login                       -> 200  7 bytes  30 ms
++   0.03s  GET  /products                    -> 200  1300 bytes  9 ms
++   0.14s  GET  /product/196                 -> 200  2402 bytes  10 ms
++   0.19s  GET  /product/9999                -> 404  9 bytes  13 ms
++   0.29s  GET  /search?q=item1              -> 200  2397 bytes  29 ms
++   0.41s  GET  /products                    -> 200  1300 bytes  6 ms
++   0.54s  GET  /cart                        -> 200  960 bytes  9 ms
++   0.70s  GET  /products                    -> 200  1300 bytes  14 ms
++   0.78s  GET  /product/371                 -> 200  1838 bytes  20 ms
++   0.95s  GET  /products                    -> 200  1300 bytes  11 ms
++   1.06s  GET  /product/179                 -> 200  2420 bytes  17 ms
++   1.13s  GET  /search?q=item30             -> 200  3954 bytes  41 ms
++   1.30s  GET  /search?q=item14             -> 200  3952 bytes  33 ms
+
+=== Session S07: 13 requests, duration 1.6 s ===
++   0.00s  POST /login                       -> 401  6 bytes  18 ms
++   0.15s  POST /login                       -> 401  6 bytes  17 ms
++   0.30s  POST /login                       -> 200  7 bytes  26 ms
++   0.33s  GET  /product/406                 -> 200  1611 bytes  15 ms
++   0.47s  GET  /search?q=item13             -> 200  3448 bytes  34 ms
++   0.65s  GET  /product/117                 -> 200  1629 bytes  20 ms
++   0.79s  GET  /product/257                 -> 200  1860 bytes  18 ms
++   0.91s  GET  /product/453                 -> 200  2725 bytes  18 ms
++   1.01s  GET  /cart                        -> 200  960 bytes  14 ms
++   1.16s  GET  /search?q=item27             -> 200  2290 bytes  54 ms
++   1.26s  GET  /cart                        -> 200  960 bytes  8 ms
++   1.40s  GET  /product/377                 -> 200  1891 bytes  12 ms
++   1.55s  GET  /cart                        -> 200  960 bytes  12 ms
+
+=== Session S08: 24 requests, duration 1.5 s ===
++   0.00s  GET  /product/82590               -> 404  9 bytes  7 ms
++   0.03s  GET  /product/48535               -> 404  9 bytes  14 ms
++   0.10s  GET  /product/87879               -> 404  9 bytes  13 ms
++   0.16s  GET  /product/31202               -> 404  9 bytes  14 ms
++   0.24s  GET  /product/52931               -> 404  9 bytes  17 ms
++   0.32s  GET  /product/33653               -> 404  9 bytes  7 ms
++   0.38s  GET  /product/92714               -> 404  9 bytes  6 ms
++   0.43s  GET  /product/78479               -> 404  9 bytes  8 ms
++   0.50s  GET  /product/80029               -> 404  9 bytes  6 ms
++   0.57s  GET  /product/85326               -> 404  9 bytes  17 ms
++   0.64s  GET  /product/56814               -> 404  9 bytes  8 ms
++   0.69s  GET  /product/90076               -> 404  9 bytes  18 ms
++   0.77s  GET  /product/62833               -> 404  9 bytes  17 ms
++   0.83s  GET  /product/13971               -> 404  9 bytes  11 ms
++   0.90s  GET  /product/81270               -> 404  9 bytes  7 ms
++   0.96s  GET  /product/20250               -> 404  9 bytes  14 ms
++   1.02s  GET  /product/40090               -> 404  9 bytes  17 ms
++   1.10s  GET  /product/24837               -> 404  9 bytes  7 ms
++   1.16s  GET  /product/27581               -> 404  9 bytes  16 ms
++   1.24s  GET  /product/55890               -> 404  9 bytes  9 ms
++   1.30s  GET  /product/1464                -> 404  9 bytes  19 ms
++   1.37s  GET  /product/4863                -> 404  9 bytes  11 ms
++   1.45s  GET  /product/65347               -> 404  9 bytes  6 ms
++   1.51s  GET  /product/83440               -> 404  9 bytes  5 ms
+
+=== Session S09: 31 requests, duration 2.1 s ===
++   0.00s  GET  /product/34530               -> 404  9 bytes  13 ms
++   0.03s  GET  /product/43532               -> 404  9 bytes  19 ms
++   0.12s  GET  /product/32231               -> 404  9 bytes  18 ms
++   0.21s  GET  /product/49880               -> 404  9 bytes  14 ms
++   0.29s  GET  /product/75915               -> 404  9 bytes  14 ms
++   0.37s  GET  /product/95315               -> 404  9 bytes  8 ms
++   0.43s  GET  /product/80186               -> 404  9 bytes  18 ms
++   0.51s  GET  /product/60837               -> 404  9 bytes  20 ms
++   0.57s  GET  /product/38969               -> 404  9 bytes  17 ms
++   0.64s  GET  /product/8046                -> 404  9 bytes  6 ms
++   0.71s  GET  /product/47069               -> 404  9 bytes  16 ms
++   0.79s  GET  /product/77427               -> 404  9 bytes  17 ms
++   0.87s  GET  /product/64227               -> 404  9 bytes  7 ms
++   0.93s  GET  /product/84785               -> 404  9 bytes  6 ms
++   1.00s  GET  /product/24069               -> 404  9 bytes  18 ms
++   1.06s  GET  /product/79490               -> 404  9 bytes  15 ms
++   1.14s  GET  /product/25462               -> 404  9 bytes  13 ms
++   1.22s  GET  /product/94493               -> 404  9 bytes  15 ms
++   1.29s  GET  /product/72022               -> 404  9 bytes  6 ms
++   1.35s  GET  /product/56225               -> 404  9 bytes  12 ms
++   1.41s  GET  /product/17038               -> 404  9 bytes  12 ms
++   1.49s  GET  /product/83367               -> 404  9 bytes  7 ms
++   1.54s  GET  /product/4443                -> 404  9 bytes  17 ms
++   1.62s  GET  /product/43044               -> 404  9 bytes  15 ms
++   1.68s  GET  /product/17850               -> 404  9 bytes  16 ms
++   1.75s  GET  /product/7048                -> 404  9 bytes  12 ms
++   1.81s  GET  /product/86593               -> 404  9 bytes  17 ms
++   1.88s  GET  /product/1661                -> 404  9 bytes  10 ms
++   1.95s  GET  /product/37790               -> 404  9 bytes  10 ms
++   2.02s  GET  /product/41962               -> 404  9 bytes  16 ms
++   2.08s  GET  /product/58687               -> 404  9 bytes  12 ms
+
+=== Session S10: 22 requests, duration 0.9 s ===
++   0.00s  GET  /backup.zip                  -> 404  9 bytes  3 ms
++   0.00s  GET  /server-status               -> 404  9 bytes  2 ms
++   0.05s  GET  /config.json                 -> 404  9 bytes  2 ms
++   0.09s  GET  /.env                        -> 404  9 bytes  5 ms
++   0.14s  GET  /backup.zip                  -> 404  9 bytes  2 ms
++   0.18s  GET  /.env                        -> 404  9 bytes  1 ms
++   0.23s  GET  /wp-login.php                -> 404  9 bytes  2 ms
++   0.27s  GET  /server-status               -> 404  9 bytes  5 ms
++   0.32s  GET  /server-status               -> 404  9 bytes  2 ms
++   0.36s  GET  /admin                       -> 404  9 bytes  4 ms
++   0.41s  GET  /admin                       -> 404  9 bytes  2 ms
++   0.46s  GET  /wp-login.php                -> 404  9 bytes  2 ms
++   0.50s  GET  /.git/config                 -> 404  9 bytes  5 ms
++   0.55s  GET  /.git/config                 -> 404  9 bytes  2 ms
++   0.60s  GET  /.git/config                 -> 404  9 bytes  1 ms
++   0.64s  GET  /server-status               -> 404  9 bytes  5 ms
++   0.69s  GET  /wp-login.php                -> 404  9 bytes  3 ms
++   0.74s  GET  /phpmyadmin                  -> 404  9 bytes  1 ms
++   0.78s  GET  /phpmyadmin                  -> 404  9 bytes  4 ms
++   0.84s  GET  /wp-login.php                -> 404  9 bytes  4 ms
++   0.89s  GET  /phpmyadmin                  -> 404  9 bytes  2 ms
++   0.94s  GET  /admin                       -> 404  9 bytes  2 ms
+
+=== Session S11: 6 requests, duration 0.6 s ===
++   0.00s  POST /login                       -> 200  7 bytes  14 ms
++   0.01s  GET  /product/117                 -> 200  1629 bytes  18 ms
++   0.21s  GET  /search?q=item25             -> 200  3281 bytes  60 ms
++   0.41s  GET  /products                    -> 200  1300 bytes  16 ms
++   0.53s  GET  /product/234                 -> 200  2740 bytes  18 ms
++   0.60s  POST /checkout                    -> 200  12 bytes  39 ms
+
+=== Session S12: 10 requests, duration 1.1 s ===
++   0.00s  POST /login                       -> 200  7 bytes  22 ms
++   0.02s  GET  /search?q=item36             -> 200  3844 bytes  46 ms
++   0.23s  GET  /product/240                 -> 200  2051 bytes  15 ms
++   0.39s  GET  /product/455                 -> 200  2921 bytes  20 ms
++   0.53s  GET  /search?q=item21             -> 200  3966 bytes  60 ms
++   0.71s  GET  /products                    -> 200  1300 bytes  15 ms
++   0.85s  GET  /product/146                 -> 200  1604 bytes  11 ms
++   0.95s  GET  /product/228                 -> 200  1600 bytes  6 ms
++   1.00s  GET  /products                    -> 200  1300 bytes  6 ms
++   1.08s  GET  /product/285                 -> 200  2499 bytes  16 ms
+
+=== Session S13: 77 requests, duration 4.3 s ===
++   0.00s  GET  /product/380                 -> 200  2261 bytes  18 ms
++   0.02s  GET  /product/485                 -> 200  1501 bytes  16 ms
++   0.08s  GET  /product/244                 -> 200  1540 bytes  11 ms
++   0.13s  GET  /product/281                 -> 200  2545 bytes  11 ms
++   0.18s  GET  /product/221                 -> 200  2813 bytes  14 ms
++   0.24s  GET  /product/487                 -> 200  1623 bytes  8 ms
++   0.29s  GET  /product/279                 -> 200  2251 bytes  12 ms
++   0.35s  GET  /product/259                 -> 200  2161 bytes  11 ms
++   0.40s  GET  /product/145                 -> 200  2991 bytes  7 ms
++   0.44s  GET  /product/196                 -> 200  2402 bytes  19 ms
++   0.55s  GET  /product/27                  -> 200  1722 bytes  10 ms
++   0.60s  GET  /product/221                 -> 200  2813 bytes  15 ms
++   0.66s  GET  /product/491                 -> 200  1589 bytes  10 ms
++   0.72s  GET  /product/53                  -> 200  2531 bytes  15 ms
++   0.77s  GET  /product/241                 -> 200  1673 bytes  13 ms
++   0.83s  GET  /product/103                 -> 200  2090 bytes  15 ms
++   0.88s  GET  /product/117                 -> 200  1629 bytes  13 ms
++   0.94s  GET  /product/96                  -> 200  1609 bytes  13 ms
++   1.00s  GET  /product/195                 -> 200  2966 bytes  18 ms
++   1.06s  GET  /product/75                  -> 200  2891 bytes  15 ms
++   1.12s  GET  /product/403                 -> 200  2483 bytes  11 ms
++   1.17s  GET  /product/268                 -> 200  2624 bytes  9 ms
++   1.23s  GET  /product/261                 -> 200  1960 bytes  18 ms
++   1.29s  GET  /product/330                 -> 200  1885 bytes  11 ms
++   1.34s  GET  /product/465                 -> 200  2329 bytes  18 ms
++   1.40s  GET  /product/12                  -> 200  1706 bytes  12 ms
++   1.46s  GET  /product/192                 -> 200  2844 bytes  8 ms
++   1.51s  GET  /product/84                  -> 200  2478 bytes  17 ms
++   1.57s  GET  /product/418                 -> 200  1676 bytes  15 ms
++   1.63s  GET  /product/13                  -> 200  2459 bytes  12 ms
++   1.69s  GET  /product/245                 -> 200  1783 bytes  11 ms
++   1.74s  GET  /product/482                 -> 200  2234 bytes  20 ms
++   1.81s  GET  /product/91                  -> 200  2429 bytes  12 ms
++   1.87s  GET  /product/388                 -> 200  2762 bytes  13 ms
++   1.93s  GET  /product/340                 -> 200  2006 bytes  15 ms
++   1.98s  GET  /product/448                 -> 200  1725 bytes  8 ms
++   2.03s  GET  /product/448                 -> 200  1725 bytes  8 ms
++   2.08s  GET  /product/218                 -> 200  1711 bytes  17 ms
++   2.15s  GET  /product/34                  -> 200  2565 bytes  18 ms
++   2.21s  GET  /product/455                 -> 200  2921 bytes  12 ms
+... (37 more requests not shown)
+
+=== Session S14: 13 requests, duration 1.0 s ===
++   0.00s  GET  /products                    -> 200  1300 bytes  8 ms
++   0.03s  GET  /products                    -> 200  1300 bytes  10 ms
++   0.14s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.19s  GET  /cart                        -> 200  960 bytes  9 ms
++   0.28s  GET  /product/215                 -> 200  2815 bytes  6 ms
++   0.37s  GET  /cart                        -> 200  960 bytes  9 ms
++   0.50s  GET  /product/118                 -> 200  2930 bytes  7 ms
++   0.56s  GET  /products                    -> 200  1300 bytes  9 ms
++   0.60s  GET  /product/251                 -> 200  2791 bytes  9 ms
++   0.73s  GET  /product/145                 -> 200  2991 bytes  8 ms
++   0.81s  GET  /product/108                 -> 200  1857 bytes  21 ms
++   0.92s  GET  /product/224                 -> 200  2027 bytes  17 ms
++   0.98s  POST /checkout                    -> 200  12 bytes  31 ms
+
+=== Session S15: 9 requests, duration 0.8 s ===
++   0.00s  POST /login                       -> 401  6 bytes  19 ms
++   0.08s  POST /login                       -> 401  6 bytes  27 ms
++   0.13s  POST /login                       -> 401  6 bytes  24 ms
++   0.29s  POST /login                       -> 401  6 bytes  20 ms
++   0.40s  POST /login                       -> 401  6 bytes  14 ms
++   0.46s  POST /login                       -> 401  6 bytes  20 ms
++   0.57s  POST /login                       -> 401  6 bytes  27 ms
++   0.63s  POST /login                       -> 401  6 bytes  28 ms
++   0.76s  POST /login                       -> 401  6 bytes  14 ms
+
+=== Session S16: 11 requests, duration 1.0 s ===
++   0.00s  GET  /products                    -> 200  1300 bytes  15 ms
++   0.05s  GET  /product/503                 -> 404  9 bytes  18 ms
++   0.16s  GET  /product/168                 -> 200  2257 bytes  16 ms
++   0.20s  GET  /product/244                 -> 200  1540 bytes  7 ms
++   0.33s  GET  /products                    -> 200  1300 bytes  4 ms
++   0.36s  GET  /search?q=item8              -> 200  3117 bytes  61 ms
++   0.52s  GET  /admin                       -> 404  9 bytes  4 ms
++   0.66s  GET  /.env                        -> 404  9 bytes  5 ms
++   0.78s  GET  /product/204                 -> 200  1704 bytes  7 ms
++   0.87s  GET  /products                    -> 200  1300 bytes  14 ms
++   0.98s  GET  /search?q=item15             -> 200  2403 bytes  32 ms
+
+=== Session S17: 9 requests, duration 0.7 s ===
++   0.00s  GET  /product/41506               -> 404  9 bytes  10 ms
++   0.13s  GET  /product/6956                -> 404  9 bytes  11 ms
++   0.19s  GET  /product/84529               -> 404  9 bytes  20 ms
++   0.29s  GET  /product/83598               -> 404  9 bytes  18 ms
++   0.36s  GET  /product/43301               -> 404  9 bytes  14 ms
++   0.46s  GET  /product/69106               -> 404  9 bytes  15 ms
++   0.55s  GET  /product/74614               -> 404  9 bytes  8 ms
++   0.62s  GET  /product/78477               -> 404  9 bytes  6 ms
++   0.70s  GET  /product/16293               -> 404  9 bytes  16 ms
+
+=== Session S18: 33 requests, duration 2.2 s ===
++   0.00s  GET  /product/14083               -> 404  9 bytes  16 ms
++   0.04s  GET  /product/89112               -> 404  9 bytes  16 ms
++   0.09s  GET  /product/52697               -> 404  9 bytes  7 ms
++   0.15s  GET  /product/78644               -> 404  9 bytes  7 ms
++   0.22s  GET  /product/48170               -> 404  9 bytes  10 ms
++   0.29s  GET  /product/76400               -> 404  9 bytes  19 ms
++   0.37s  GET  /product/20724               -> 404  9 bytes  8 ms
++   0.43s  GET  /product/92511               -> 404  9 bytes  12 ms
++   0.52s  GET  /product/71715               -> 404  9 bytes  19 ms
++   0.59s  GET  /product/32149               -> 404  9 bytes  13 ms
++   0.67s  GET  /product/36019               -> 404  9 bytes  10 ms
++   0.74s  GET  /product/83293               -> 404  9 bytes  18 ms
++   0.81s  GET  /product/98840               -> 404  9 bytes  11 ms
++   0.88s  GET  /product/29128               -> 404  9 bytes  6 ms
++   0.96s  GET  /product/8312                -> 404  9 bytes  16 ms
++   1.03s  GET  /product/28390               -> 404  9 bytes  10 ms
++   1.09s  GET  /product/57040               -> 404  9 bytes  6 ms
++   1.16s  GET  /product/81587               -> 404  9 bytes  7 ms
++   1.21s  GET  /product/67406               -> 404  9 bytes  20 ms
++   1.28s  GET  /product/21794               -> 404  9 bytes  11 ms
++   1.34s  GET  /product/11945               -> 404  9 bytes  11 ms
++   1.41s  GET  /product/25110               -> 404  9 bytes  18 ms
++   1.48s  GET  /product/4216                -> 404  9 bytes  14 ms
++   1.56s  GET  /product/88705               -> 404  9 bytes  13 ms
++   1.63s  GET  /product/20380               -> 404  9 bytes  39 ms
++   1.72s  GET  /product/29582               -> 404  9 bytes  15 ms
++   1.78s  GET  /product/71047               -> 404  9 bytes  7 ms
++   1.85s  GET  /product/95348               -> 404  9 bytes  16 ms
++   1.92s  GET  /product/80067               -> 404  9 bytes  11 ms
++   1.99s  GET  /product/89785               -> 404  9 bytes  8 ms
++   2.04s  GET  /product/40503               -> 404  9 bytes  14 ms
++   2.13s  GET  /product/28010               -> 404  9 bytes  20 ms
++   2.22s  GET  /product/44248               -> 404  9 bytes  10 ms
+
+=== Session S19: 10 requests, duration 1.0 s ===
++   0.00s  GET  /search?q=item12             -> 200  2368 bytes  37 ms
++   0.06s  GET  /product/75                  -> 200  2891 bytes  11 ms
++   0.14s  GET  /search?q=item24             -> 200  3898 bytes  31 ms
++   0.35s  GET  /product/235                 -> 200  2325 bytes  18 ms
++   0.48s  GET  /product/97                  -> 200  2274 bytes  11 ms
++   0.57s  GET  /products                    -> 200  1300 bytes  5 ms
++   0.70s  GET  /products                    -> 200  1300 bytes  16 ms
++   0.77s  GET  /search?q=item17             -> 200  3427 bytes  27 ms
++   0.86s  GET  /search?q=item22             -> 200  2436 bytes  32 ms
++   0.97s  POST /checkout                    -> 200  12 bytes  45 ms
+
+=== Session S20: 9 requests, duration 0.9 s ===
++   0.00s  GET  /search?q=item2              -> 200  2116 bytes  36 ms
++   0.13s  GET  /cart                        -> 200  960 bytes  7 ms
++   0.25s  GET  /product/266                 -> 200  1553 bytes  16 ms
++   0.37s  GET  /cart                        -> 200  960 bytes  6 ms
++   0.47s  GET  /cart                        -> 200  960 bytes  4 ms
++   0.58s  GET  /products                    -> 200  1300 bytes  5 ms
++   0.71s  GET  /search?q=item36             -> 200  3844 bytes  24 ms
++   0.83s  GET  /product/27                  -> 200  1722 bytes  7 ms
++   0.87s  GET  /product/190                 -> 200  1962 bytes  19 ms
+
+=== Session S21: 31 requests, duration 2.0 s ===
++   0.00s  GET  /product/270                 -> 200  1988 bytes  18 ms
++   0.04s  GET  /product/176                 -> 200  1756 bytes  14 ms
++   0.14s  GET  /product/358                 -> 200  2689 bytes  10 ms
++   0.19s  GET  /product/243                 -> 200  2036 bytes  11 ms
++   0.25s  GET  /product/420                 -> 200  1569 bytes  10 ms
++   0.31s  GET  /product/290                 -> 200  2684 bytes  13 ms
++   0.38s  GET  /product/428                 -> 200  2642 bytes  12 ms
++   0.45s  GET  /product/318                 -> 200  1987 bytes  5 ms
++   0.47s  GET  /product/157                 -> 200  1901 bytes  12 ms
++   0.58s  GET  /product/465                 -> 200  2329 bytes  6 ms
++   0.62s  GET  /product/182                 -> 200  2807 bytes  15 ms
++   0.69s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.71s  GET  /product/375                 -> 200  2904 bytes  13 ms
++   0.79s  GET  /product/27                  -> 200  1722 bytes  18 ms
++   0.89s  GET  /product/70                  -> 200  2749 bytes  13 ms
++   0.95s  GET  /product/166                 -> 200  2127 bytes  16 ms
++   0.99s  GET  /product/466                 -> 200  2145 bytes  9 ms
++   1.08s  GET  /product/368                 -> 200  2503 bytes  19 ms
++   1.20s  GET  /product/250                 -> 200  2979 bytes  12 ms
++   1.27s  GET  /product/139                 -> 200  1731 bytes  19 ms
++   1.31s  GET  /product/207                 -> 200  2319 bytes  6 ms
++   1.37s  GET  /product/480                 -> 200  2014 bytes  14 ms
++   1.45s  GET  /products                    -> 200  1300 bytes  9 ms
++   1.56s  GET  /product/29                  -> 200  2234 bytes  8 ms
++   1.62s  GET  /product/206                 -> 200  1625 bytes  10 ms
++   1.68s  GET  /products                    -> 200  1300 bytes  10 ms
++   1.74s  GET  /product/477                 -> 200  2187 bytes  5 ms
++   1.77s  GET  /product/170                 -> 200  1996 bytes  6 ms
++   1.85s  GET  /product/337                 -> 200  1914 bytes  8 ms
++   1.96s  GET  /products                    -> 200  1300 bytes  8 ms
++   2.00s  GET  /products                    -> 200  1300 bytes  8 ms
+
+=== Session S22: 50 requests, duration 2.7 s ===
++   0.00s  GET  /product/90                  -> 200  2981 bytes  8 ms
++   0.01s  GET  /product/342                 -> 200  1602 bytes  15 ms
++   0.07s  GET  /product/161                 -> 200  1795 bytes  18 ms
++   0.13s  GET  /product/80                  -> 200  1739 bytes  11 ms
++   0.19s  GET  /product/288                 -> 200  2841 bytes  14 ms
++   0.25s  GET  /product/241                 -> 200  1673 bytes  7 ms
++   0.30s  GET  /product/147                 -> 200  2076 bytes  17 ms
++   0.36s  GET  /product/336                 -> 200  1796 bytes  17 ms
++   0.42s  GET  /product/314                 -> 200  1799 bytes  19 ms
++   0.47s  GET  /product/126                 -> 200  2755 bytes  12 ms
++   0.53s  GET  /product/242                 -> 200  2834 bytes  14 ms
++   0.59s  GET  /product/364                 -> 200  2694 bytes  10 ms
++   0.64s  GET  /product/72                  -> 200  2008 bytes  8 ms
++   0.69s  GET  /product/211                 -> 200  2556 bytes  16 ms
++   0.75s  GET  /product/254                 -> 200  2803 bytes  8 ms
++   0.80s  GET  /product/346                 -> 200  1737 bytes  19 ms
++   0.87s  GET  /product/226                 -> 200  2637 bytes  17 ms
++   0.93s  GET  /product/182                 -> 200  2807 bytes  13 ms
++   0.98s  GET  /product/13                  -> 200  2459 bytes  19 ms
++   1.05s  GET  /product/110                 -> 200  1920 bytes  7 ms
++   1.10s  GET  /product/19                  -> 200  1899 bytes  13 ms
++   1.15s  GET  /product/387                 -> 200  2092 bytes  8 ms
++   1.21s  GET  /product/9                   -> 200  2151 bytes  14 ms
++   1.26s  GET  /product/275                 -> 200  2460 bytes  7 ms
++   1.31s  GET  /product/287                 -> 200  1579 bytes  11 ms
++   1.36s  GET  /product/100                 -> 200  1565 bytes  20 ms
++   1.43s  GET  /product/180                 -> 200  2461 bytes  13 ms
++   1.48s  GET  /product/492                 -> 200  2307 bytes  20 ms
++   1.55s  GET  /product/320                 -> 200  2339 bytes  11 ms
++   1.60s  GET  /product/168                 -> 200  2257 bytes  12 ms
++   1.66s  GET  /product/350                 -> 200  1540 bytes  19 ms
++   1.72s  GET  /product/170                 -> 200  1996 bytes  19 ms
++   1.77s  GET  /product/49                  -> 200  1986 bytes  11 ms
++   1.83s  GET  /product/320                 -> 200  2339 bytes  13 ms
++   1.89s  GET  /product/78                  -> 200  1584 bytes  12 ms
++   1.95s  GET  /product/52                  -> 200  2123 bytes  20 ms
++   2.01s  GET  /product/298                 -> 200  2966 bytes  13 ms
++   2.07s  GET  /product/147                 -> 200  2076 bytes  13 ms
++   2.13s  GET  /product/491                 -> 200  1589 bytes  9 ms
++   2.18s  GET  /product/284                 -> 200  2772 bytes  18 ms
+... (10 more requests not shown)
+
+=== Session S23: 22 requests, duration 1.4 s ===
++   0.00s  GET  /product/35179               -> 404  9 bytes  15 ms
++   0.03s  GET  /product/98256               -> 404  9 bytes  11 ms
++   0.12s  GET  /product/45545               -> 404  9 bytes  12 ms
++   0.20s  GET  /product/29433               -> 404  9 bytes  18 ms
++   0.27s  GET  /product/49782               -> 404  9 bytes  16 ms
++   0.36s  GET  /product/90732               -> 404  9 bytes  9 ms
++   0.44s  GET  /product/40046               -> 404  9 bytes  7 ms
++   0.50s  GET  /product/15439               -> 404  9 bytes  12 ms
++   0.56s  GET  /product/28397               -> 404  9 bytes  12 ms
++   0.62s  GET  /product/62863               -> 404  9 bytes  10 ms
++   0.67s  GET  /product/36596               -> 404  9 bytes  19 ms
++   0.74s  GET  /product/38901               -> 404  9 bytes  12 ms
++   0.80s  GET  /product/1358                -> 404  9 bytes  20 ms
++   0.87s  GET  /product/96479               -> 404  9 bytes  18 ms
++   0.94s  GET  /product/12192               -> 404  9 bytes  17 ms
++   1.02s  GET  /product/36442               -> 404  9 bytes  11 ms
++   1.09s  GET  /product/31531               -> 404  9 bytes  7 ms
++   1.14s  GET  /product/59872               -> 404  9 bytes  6 ms
++   1.21s  GET  /product/65288               -> 404  9 bytes  18 ms
++   1.28s  GET  /product/25449               -> 404  9 bytes  7 ms
++   1.35s  GET  /product/99390               -> 404  9 bytes  16 ms
++   1.43s  GET  /product/18170               -> 404  9 bytes  7 ms
+
+=== Session S24: 14 requests, duration 1.3 s ===
++   0.00s  POST /login                       -> 200  7 bytes  13 ms
++   0.01s  GET  /product/192                 -> 200  2844 bytes  12 ms
++   0.12s  GET  /product/130                 -> 200  2253 bytes  6 ms
++   0.21s  GET  /cart                        -> 200  960 bytes  12 ms
++   0.36s  GET  /search?q=item27             -> 200  2290 bytes  26 ms
++   0.41s  GET  /product/306                 -> 200  2554 bytes  11 ms
++   0.62s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.71s  GET  /product/360                 -> 200  2050 bytes  15 ms
++   0.78s  GET  /product/250                 -> 200  2979 bytes  18 ms
++   0.88s  GET  /cart                        -> 200  960 bytes  10 ms
++   0.92s  GET  /cart                        -> 200  960 bytes  11 ms
++   1.01s  GET  /product/207                 -> 200  2319 bytes  9 ms
++   1.09s  GET  /cart                        -> 200  960 bytes  9 ms
++   1.25s  POST /checkout                    -> 200  12 bytes  41 ms
+
+=== Session S25: 26 requests, duration 1.7 s ===
++   0.00s  GET  /product/60937               -> 404  9 bytes  11 ms
++   0.04s  GET  /product/12562               -> 404  9 bytes  19 ms
++   0.11s  GET  /product/85649               -> 404  9 bytes  14 ms
++   0.18s  GET  /product/19344               -> 404  9 bytes  14 ms
++   0.26s  GET  /product/55331               -> 404  9 bytes  9 ms
++   0.31s  GET  /product/73425               -> 404  9 bytes  7 ms
++   0.37s  GET  /product/54947               -> 404  9 bytes  18 ms
++   0.45s  GET  /product/32583               -> 404  9 bytes  10 ms
++   0.51s  GET  /product/60934               -> 404  9 bytes  18 ms
++   0.60s  GET  /product/38802               -> 404  9 bytes  8 ms
++   0.67s  GET  /product/59616               -> 404  9 bytes  13 ms
++   0.74s  GET  /product/13701               -> 404  9 bytes  5 ms
++   0.81s  GET  /product/48956               -> 404  9 bytes  7 ms
++   0.87s  GET  /product/47160               -> 404  9 bytes  18 ms
++   0.94s  GET  /product/47652               -> 404  9 bytes  7 ms
++   1.00s  GET  /product/5860                -> 404  9 bytes  7 ms
++   1.08s  GET  /product/93991               -> 404  9 bytes  19 ms
++   1.15s  GET  /product/87933               -> 404  9 bytes  11 ms
++   1.21s  GET  /product/62468               -> 404  9 bytes  12 ms
++   1.29s  GET  /product/8896                -> 404  9 bytes  11 ms
++   1.37s  GET  /product/8541                -> 404  9 bytes  9 ms
++   1.43s  GET  /product/88165               -> 404  9 bytes  19 ms
++   1.50s  GET  /product/75195               -> 404  9 bytes  16 ms
++   1.57s  GET  /product/31821               -> 404  9 bytes  14 ms
++   1.64s  GET  /product/81854               -> 404  9 bytes  20 ms
++   1.73s  GET  /product/68374               -> 404  9 bytes  7 ms
+
+=== Session S26: 10 requests, duration 1.1 s ===
++   0.00s  GET  /product/86                  -> 200  1557 bytes  10 ms
++   0.06s  GET  /cart                        -> 200  960 bytes  14 ms
++   0.12s  GET  /product/265                 -> 200  2271 bytes  18 ms
++   0.25s  GET  /search?q=item24             -> 200  3898 bytes  34 ms
++   0.34s  GET  /cart                        -> 200  960 bytes  13 ms
++   0.50s  GET  /search?q=item41             -> 200  3074 bytes  52 ms
++   0.66s  GET  /.git/config                 -> 404  9 bytes  3 ms
++   0.76s  GET  /server-status               -> 404  9 bytes  4 ms
++   0.89s  GET  /wp-login.php                -> 404  9 bytes  4 ms
++   1.08s  GET  /product/484                 -> 200  2671 bytes  12 ms
+
+=== Session S27: 7 requests, duration 0.7 s ===
++   0.00s  GET  /products                    -> 200  1300 bytes  6 ms
++   0.04s  GET  /product/75                  -> 200  2891 bytes  9 ms
++   0.13s  GET  /cart                        -> 200  960 bytes  15 ms
++   0.25s  GET  /product/427                 -> 200  1677 bytes  10 ms
++   0.38s  GET  /search?q=item8              -> 200  3117 bytes  26 ms
++   0.53s  GET  /search?q=item10             -> 200  3249 bytes  54 ms
++   0.68s  POST /checkout                    -> 200  12 bytes  24 ms
+
+=== Session S28: 9 requests, duration 0.9 s ===
++   0.00s  GET  /products                    -> 200  1300 bytes  14 ms
++   0.05s  GET  /products                    -> 200  1300 bytes  10 ms
++   0.14s  GET  /product/29                  -> 200  2234 bytes  14 ms
++   0.19s  GET  /product/409                 -> 200  2945 bytes  14 ms
++   0.37s  GET  /product/82                  -> 200  1818 bytes  16 ms
++   0.53s  GET  /search?q=item39             -> 200  3729 bytes  45 ms
++   0.71s  GET  /product/266                 -> 200  1553 bytes  14 ms
++   0.76s  GET  /product/374                 -> 200  2806 bytes  6 ms
++   0.94s  GET  /search?q=item46             -> 200  3432 bytes  60 ms
+
+=== Session S29: 7 requests, duration 0.6 s ===
++   0.00s  GET  /cart                        -> 200  960 bytes  13 ms
++   0.08s  GET  /product/348                 -> 200  2545 bytes  13 ms
++   0.24s  GET  /product/209                 -> 200  2932 bytes  14 ms
++   0.28s  GET  /search?q=item22             -> 200  2436 bytes  26 ms
++   0.42s  GET  /search?q=item24             -> 200  3898 bytes  50 ms
++   0.57s  GET  /products                    -> 200  1300 bytes  6 ms
++   0.64s  GET  /product/408                 -> 200  2179 bytes  20 ms
+
+=== Session S30: 7 requests, duration 1.0 s ===
++   0.00s  POST /login                       -> 401  6 bytes  26 ms
++   0.17s  POST /login                       -> 401  6 bytes  17 ms
++   0.36s  POST /login                       -> 401  6 bytes  24 ms
++   0.58s  POST /login                       -> 401  6 bytes  16 ms
++   0.73s  POST /login                       -> 401  6 bytes  30 ms
++   0.89s  POST /login                       -> 401  6 bytes  25 ms
++   1.04s  POST /login                       -> 401  6 bytes  23 ms
+
+=== Session S31: 32 requests, duration 2.2 s ===
++   0.00s  GET  /product/118                 -> 200  2930 bytes  9 ms
++   0.04s  GET  /product/154                 -> 200  1512 bytes  17 ms
++   0.12s  GET  /product/247                 -> 200  2146 bytes  10 ms
++   0.24s  GET  /product/317                 -> 200  1835 bytes  19 ms
++   0.27s  GET  /products                    -> 200  1300 bytes  9 ms
++   0.33s  GET  /products                    -> 200  1300 bytes  9 ms
++   0.42s  GET  /product/195                 -> 200  2966 bytes  6 ms
++   0.49s  GET  /product/411                 -> 200  1559 bytes  17 ms
++   0.57s  GET  /product/291                 -> 200  2973 bytes  7 ms
++   0.65s  GET  /product/211                 -> 200  2556 bytes  13 ms
++   0.74s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.83s  GET  /product/38                  -> 200  1865 bytes  8 ms
++   0.87s  GET  /product/442                 -> 200  1711 bytes  6 ms
++   0.94s  GET  /product/296                 -> 200  2436 bytes  19 ms
++   1.05s  GET  /product/389                 -> 200  2141 bytes  13 ms
++   1.10s  GET  /products                    -> 200  1300 bytes  15 ms
++   1.18s  GET  /product/389                 -> 200  2141 bytes  16 ms
++   1.24s  GET  /product/427                 -> 200  1677 bytes  10 ms
++   1.30s  GET  /products                    -> 200  1300 bytes  14 ms
++   1.34s  GET  /products                    -> 200  1300 bytes  14 ms
++   1.41s  GET  /product/157                 -> 200  1901 bytes  17 ms
++   1.51s  GET  /product/471                 -> 200  1616 bytes  15 ms
++   1.62s  GET  /product/57                  -> 200  2648 bytes  8 ms
++   1.69s  GET  /product/103                 -> 200  2090 bytes  14 ms
++   1.75s  GET  /products                    -> 200  1300 bytes  6 ms
++   1.79s  GET  /products                    -> 200  1300 bytes  8 ms
++   1.86s  GET  /product/390                 -> 200  2061 bytes  15 ms
++   1.91s  GET  /product/310                 -> 200  1552 bytes  18 ms
++   1.98s  GET  /product/216                 -> 200  2572 bytes  9 ms
++   2.02s  GET  /product/21                  -> 200  2846 bytes  14 ms
++   2.12s  GET  /product/210                 -> 200  2342 bytes  14 ms
++   2.16s  GET  /products                    -> 200  1300 bytes  8 ms
+
+=== Session S32: 19 requests, duration 1.8 s ===
++   0.00s  POST /login                       -> 200  7 bytes  17 ms
++   0.02s  POST /login                       -> 401  6 bytes  18 ms
++   0.14s  POST /login                       -> 401  6 bytes  30 ms
++   0.29s  POST /login                       -> 401  6 bytes  24 ms
++   0.40s  POST /login                       -> 200  7 bytes  15 ms
++   0.41s  GET  /products                    -> 200  1300 bytes  14 ms
++   0.54s  GET  /product/219                 -> 200  1845 bytes  17 ms
++   0.68s  GET  /cart                        -> 200  960 bytes  14 ms
++   0.76s  GET  /product/10                  -> 200  2753 bytes  7 ms
++   0.87s  GET  /product/519                 -> 404  9 bytes  10 ms
++   1.03s  GET  /products                    -> 200  1300 bytes  10 ms
++   1.11s  GET  /products                    -> 200  1300 bytes  7 ms
++   1.14s  GET  /product/9999                -> 404  9 bytes  15 ms
++   1.32s  GET  /product/25                  -> 200  1872 bytes  17 ms
++   1.41s  GET  /products                    -> 200  1300 bytes  9 ms
++   1.49s  GET  /products                    -> 200  1300 bytes  15 ms
++   1.62s  GET  /search?q=item8              -> 200  3117 bytes  44 ms
++   1.80s  GET  /product/241                 -> 200  1673 bytes  7 ms
++   1.82s  POST /checkout                    -> 200  12 bytes  24 ms
+
+=== Session S33: 8 requests, duration 1.0 s ===
++   0.00s  GET  /products                    -> 200  1300 bytes  13 ms
++   0.16s  GET  /product/273                 -> 200  2882 bytes  17 ms
++   0.24s  GET  /product/257                 -> 200  1860 bytes  18 ms
++   0.36s  POST /login                       -> 401  6 bytes  11 ms
++   0.52s  POST /login                       -> 401  6 bytes  24 ms
++   0.65s  POST /login                       -> 401  6 bytes  28 ms
++   0.87s  POST /login                       -> 401  6 bytes  13 ms
++   1.03s  POST /login                       -> 401  6 bytes  24 ms
+
+=== Session S34: 7 requests, duration 1.3 s ===
++   0.00s  POST /login                       -> 401  6 bytes  24 ms
++   0.19s  POST /login                       -> 401  6 bytes  28 ms
++   0.35s  POST /login                       -> 401  6 bytes  25 ms
++   0.67s  POST /login                       -> 401  6 bytes  17 ms
++   0.86s  POST /login                       -> 401  6 bytes  24 ms
++   1.02s  POST /login                       -> 401  6 bytes  15 ms
++   1.26s  POST /login                       -> 401  6 bytes  28 ms
+
+=== Session S35: 6 requests, duration 1.0 s ===
++   0.00s  POST /login                       -> 401  6 bytes  28 ms
++   0.18s  POST /login                       -> 401  6 bytes  20 ms
++   0.39s  POST /login                       -> 401  6 bytes  21 ms
++   0.65s  POST /login                       -> 401  6 bytes  21 ms
++   0.82s  POST /login                       -> 401  6 bytes  28 ms
++   0.96s  POST /login                       -> 401  6 bytes  25 ms
+
+=== Session S36: 26 requests, duration 1.8 s ===
++   0.00s  GET  /product/22004               -> 404  9 bytes  18 ms
++   0.03s  GET  /product/24250               -> 404  9 bytes  9 ms
++   0.10s  GET  /product/87325               -> 404  9 bytes  9 ms
++   0.17s  GET  /product/97590               -> 404  9 bytes  12 ms
++   0.25s  GET  /product/19896               -> 404  9 bytes  16 ms
++   0.33s  GET  /product/668                 -> 404  9 bytes  17 ms
++   0.41s  GET  /product/63931               -> 404  9 bytes  8 ms
++   0.48s  GET  /product/98118               -> 404  9 bytes  14 ms
++   0.55s  GET  /product/68191               -> 404  9 bytes  16 ms
++   0.63s  GET  /product/1789                -> 404  9 bytes  17 ms
++   0.71s  GET  /product/73240               -> 404  9 bytes  19 ms
++   0.79s  GET  /product/42078               -> 404  9 bytes  7 ms
++   0.86s  GET  /product/73509               -> 404  9 bytes  15 ms
++   0.92s  GET  /product/19472               -> 404  9 bytes  6 ms
++   0.97s  GET  /product/14732               -> 404  9 bytes  8 ms
++   1.04s  GET  /product/80972               -> 404  9 bytes  17 ms
++   1.11s  GET  /product/43874               -> 404  9 bytes  19 ms
++   1.20s  GET  /product/56742               -> 404  9 bytes  19 ms
++   1.29s  GET  /product/86832               -> 404  9 bytes  13 ms
++   1.34s  GET  /product/96346               -> 404  9 bytes  8 ms
++   1.42s  GET  /product/32361               -> 404  9 bytes  18 ms
++   1.49s  GET  /product/32156               -> 404  9 bytes  14 ms
++   1.57s  GET  /product/90920               -> 404  9 bytes  9 ms
++   1.64s  GET  /product/61397               -> 404  9 bytes  7 ms
++   1.71s  GET  /product/34430               -> 404  9 bytes  11 ms
++   1.78s  GET  /product/44517               -> 404  9 bytes  12 ms
+
+=== Session S37: 14 requests, duration 1.6 s ===
++   0.00s  POST /login                       -> 200  7 bytes  14 ms
++   0.01s  GET  /search?q=item5              -> 200  2292 bytes  21 ms
++   0.24s  GET  /product/390                 -> 200  2061 bytes  20 ms
++   0.36s  GET  /product/253                 -> 200  2326 bytes  19 ms
++   0.49s  GET  /search?q=item16             -> 200  3752 bytes  25 ms
++   0.60s  GET  /products                    -> 200  1300 bytes  12 ms
++   0.72s  GET  /products                    -> 200  1300 bytes  12 ms
++   0.83s  GET  /search?q=item33             -> 200  3193 bytes  48 ms
++   0.96s  GET  /search?q=item13             -> 200  3448 bytes  26 ms
++   1.04s  GET  /cart                        -> 200  960 bytes  8 ms
++   1.18s  GET  /cart                        -> 200  960 bytes  5 ms
++   1.32s  GET  /product/411                 -> 200  1559 bytes  16 ms
++   1.40s  GET  /product/345                 -> 200  1861 bytes  18 ms
++   1.56s  POST /checkout                    -> 200  12 bytes  45 ms
+
+=== Session S38: 20 requests, duration 1.3 s ===
++   0.00s  GET  /product/12774               -> 404  9 bytes  9 ms
++   0.02s  GET  /product/22715               -> 404  9 bytes  16 ms
++   0.09s  GET  /product/30594               -> 404  9 bytes  20 ms
++   0.17s  GET  /product/38677               -> 404  9 bytes  6 ms
++   0.23s  GET  /product/27572               -> 404  9 bytes  18 ms
++   0.31s  GET  /product/31710               -> 404  9 bytes  20 ms
++   0.40s  GET  /product/27244               -> 404  9 bytes  10 ms
++   0.48s  GET  /product/74722               -> 404  9 bytes  15 ms
++   0.54s  GET  /product/73510               -> 404  9 bytes  16 ms
++   0.61s  GET  /product/56397               -> 404  9 bytes  17 ms
++   0.68s  GET  /product/96876               -> 404  9 bytes  15 ms
++   0.75s  GET  /product/31766               -> 404  9 bytes  12 ms
++   0.82s  GET  /product/37769               -> 404  9 bytes  11 ms
++   0.88s  GET  /product/78836               -> 404  9 bytes  19 ms
++   0.95s  GET  /product/63496               -> 404  9 bytes  9 ms
++   1.03s  GET  /product/30530               -> 404  9 bytes  6 ms
++   1.08s  GET  /product/29184               -> 404  9 bytes  16 ms
++   1.14s  GET  /product/21477               -> 404  9 bytes  17 ms
++   1.22s  GET  /product/53512               -> 404  9 bytes  18 ms
++   1.29s  GET  /product/60840               -> 404  9 bytes  10 ms
+
+=== Session S39: 6 requests, duration 0.4 s ===
++   0.00s  POST /login                       -> 200  7 bytes  28 ms
++   0.03s  GET  /cart                        -> 200  960 bytes  3 ms
++   0.15s  GET  /search?q=item9              -> 200  3366 bytes  33 ms
++   0.27s  GET  /product/263                 -> 200  2819 bytes  16 ms
++   0.34s  GET  /product/345                 -> 200  1861 bytes  12 ms
++   0.38s  GET  /search?q=item37             -> 200  2454 bytes  47 ms
+
+=== Session S40: 11 requests, duration 1.1 s ===
++   0.00s  GET  /product/411                 -> 200  1559 bytes  8 ms
++   0.15s  GET  /product/9999                -> 404  9 bytes  9 ms
++   0.21s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.29s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.43s  GET  /search?q=item48             -> 200  2288 bytes  21 ms
++   0.48s  GET  /product/232                 -> 200  2008 bytes  17 ms
++   0.66s  GET  /search?q=item36             -> 200  3844 bytes  28 ms
++   0.79s  GET  /product/146                 -> 200  1604 bytes  10 ms
++   0.94s  GET  /search?q=item14             -> 200  3952 bytes  56 ms
++   1.09s  GET  /products                    -> 200  1300 bytes  6 ms
++   1.13s  GET  /products                    -> 200  1300 bytes  14 ms
+
+=== Session S41: 12 requests, duration 1.3 s ===
++   0.00s  POST /login                       -> 200  7 bytes  30 ms
++   0.03s  GET  /product/269                 -> 200  2471 bytes  19 ms
++   0.19s  GET  /product/152                 -> 200  2587 bytes  19 ms
++   0.34s  GET  /product/210                 -> 200  2342 bytes  17 ms
++   0.40s  GET  /product/34                  -> 200  2565 bytes  18 ms
++   0.48s  GET  /search?q=item26             -> 200  3928 bytes  40 ms
++   0.71s  GET  /product/90                  -> 200  2981 bytes  7 ms
++   0.84s  GET  /cart                        -> 200  960 bytes  9 ms
++   0.98s  GET  /products                    -> 200  1300 bytes  14 ms
++   1.06s  GET  /products                    -> 200  1300 bytes  11 ms
++   1.20s  GET  /products                    -> 200  1300 bytes  5 ms
++   1.30s  POST /checkout                    -> 200  12 bytes  40 ms
+
+=== Session S42: 5 requests, duration 0.4 s ===
++   0.00s  POST /login                       -> 200  7 bytes  27 ms
++   0.03s  GET  /search?q=item12             -> 200  2368 bytes  46 ms
++   0.16s  GET  /product/9999                -> 404  9 bytes  15 ms
++   0.33s  GET  /product/250                 -> 200  2979 bytes  9 ms
++   0.39s  GET  /product/223                 -> 200  2942 bytes  13 ms
+
+=== Session S43: 78 requests, duration 4.2 s ===
++   0.00s  GET  /product/187                 -> 200  2605 bytes  11 ms
++   0.01s  GET  /product/165                 -> 200  1766 bytes  15 ms
++   0.07s  GET  /product/499                 -> 200  1777 bytes  13 ms
++   0.12s  GET  /product/443                 -> 200  2145 bytes  5 ms
++   0.17s  GET  /product/47                  -> 200  2491 bytes  8 ms
++   0.22s  GET  /product/371                 -> 200  1838 bytes  7 ms
++   0.27s  GET  /product/196                 -> 200  2402 bytes  7 ms
++   0.33s  GET  /product/328                 -> 200  1903 bytes  9 ms
++   0.38s  GET  /product/229                 -> 200  2786 bytes  7 ms
++   0.43s  GET  /product/165                 -> 200  1766 bytes  19 ms
++   0.49s  GET  /product/329                 -> 200  2676 bytes  12 ms
++   0.55s  GET  /product/250                 -> 200  2979 bytes  9 ms
++   0.60s  GET  /product/158                 -> 200  1947 bytes  9 ms
++   0.65s  GET  /product/460                 -> 200  2638 bytes  20 ms
++   0.71s  GET  /product/7                   -> 200  2492 bytes  20 ms
++   0.78s  GET  /product/123                 -> 200  2695 bytes  20 ms
++   0.84s  GET  /product/327                 -> 200  2754 bytes  7 ms
++   0.89s  GET  /product/427                 -> 200  1677 bytes  12 ms
++   0.94s  GET  /product/66                  -> 200  1611 bytes  18 ms
++   1.00s  GET  /product/89                  -> 200  1811 bytes  19 ms
++   1.06s  GET  /product/103                 -> 200  2090 bytes  6 ms
++   1.12s  GET  /product/227                 -> 200  1724 bytes  17 ms
++   1.17s  GET  /product/212                 -> 200  2911 bytes  16 ms
++   1.24s  GET  /product/76                  -> 200  2162 bytes  8 ms
++   1.29s  GET  /product/395                 -> 200  1616 bytes  9 ms
++   1.34s  GET  /product/294                 -> 200  2721 bytes  15 ms
++   1.40s  GET  /product/156                 -> 200  1946 bytes  20 ms
++   1.47s  GET  /product/330                 -> 200  1885 bytes  6 ms
++   1.52s  GET  /product/19                  -> 200  1899 bytes  8 ms
++   1.57s  GET  /product/39                  -> 200  2922 bytes  16 ms
++   1.63s  GET  /product/142                 -> 200  2563 bytes  15 ms
++   1.69s  GET  /product/167                 -> 200  1921 bytes  10 ms
++   1.75s  GET  /product/498                 -> 200  2752 bytes  11 ms
++   1.80s  GET  /product/200                 -> 200  1842 bytes  6 ms
++   1.85s  GET  /product/337                 -> 200  1914 bytes  20 ms
++   1.92s  GET  /product/261                 -> 200  1960 bytes  10 ms
++   1.97s  GET  /product/298                 -> 200  2966 bytes  10 ms
++   2.02s  GET  /product/461                 -> 200  2520 bytes  8 ms
++   2.07s  GET  /product/213                 -> 200  2682 bytes  17 ms
++   2.13s  GET  /product/172                 -> 200  2274 bytes  15 ms
+... (38 more requests not shown)
+
+=== Session S44: 7 requests, duration 0.7 s ===
++   0.00s  GET  /product/57                  -> 200  2648 bytes  9 ms
++   0.07s  POST /login                       -> 401  6 bytes  23 ms
++   0.15s  POST /login                       -> 401  6 bytes  25 ms
++   0.34s  POST /login                       -> 401  6 bytes  28 ms
++   0.49s  POST /login                       -> 401  6 bytes  26 ms
++   0.63s  GET  /products                    -> 200  1300 bytes  12 ms
++   0.71s  GET  /product/84                  -> 200  2478 bytes  12 ms
+
+=== Session S45: 14 requests, duration 1.6 s ===
++   0.00s  POST /login                       -> 401  6 bytes  25 ms
++   0.22s  POST /login                       -> 401  6 bytes  27 ms
++   0.32s  POST /login                       -> 401  6 bytes  23 ms
++   0.46s  POST /login                       -> 401  6 bytes  14 ms
++   0.61s  POST /login                       -> 200  7 bytes  28 ms
++   0.64s  GET  /cart                        -> 200  960 bytes  11 ms
++   0.82s  GET  /product/266                 -> 200  1553 bytes  7 ms
++   0.94s  GET  /product/485                 -> 200  1501 bytes  7 ms
++   0.98s  GET  /search?q=item6              -> 200  2123 bytes  54 ms
++   1.11s  GET  /product/72                  -> 200  2008 bytes  20 ms
++   1.24s  GET  /product/327                 -> 200  2754 bytes  19 ms
++   1.38s  GET  /product/468                 -> 200  2321 bytes  8 ms
++   1.51s  GET  /product/48                  -> 200  2738 bytes  16 ms
++   1.56s  GET  /cart                        -> 200  960 bytes  10 ms
+
+=== Session S46: 15 requests, duration 1.5 s ===
++   0.00s  POST /login                       -> 200  7 bytes  21 ms
++   0.02s  POST /login                       -> 401  6 bytes  18 ms
++   0.24s  POST /login                       -> 401  6 bytes  17 ms
++   0.41s  POST /login                       -> 200  7 bytes  21 ms
++   0.43s  GET  /search?q=item7              -> 200  2461 bytes  39 ms
++   0.57s  GET  /product/145                 -> 200  2991 bytes  10 ms
++   0.63s  GET  /product/242                 -> 200  2834 bytes  16 ms
++   0.75s  GET  /product/178                 -> 200  2324 bytes  18 ms
++   0.83s  GET  /cart                        -> 200  960 bytes  6 ms
++   0.93s  GET  /product/289                 -> 200  2448 bytes  13 ms
++   1.07s  GET  /product/345                 -> 200  1861 bytes  14 ms
++   1.19s  GET  /cart                        -> 200  960 bytes  6 ms
++   1.32s  GET  /product/39                  -> 200  2922 bytes  16 ms
++   1.44s  GET  /product/374                 -> 200  2806 bytes  14 ms
++   1.53s  GET  /products                    -> 200  1300 bytes  10 ms
+
+=== Session S47: 5 requests, duration 0.3 s ===
++   0.00s  POST /login                       -> 200  7 bytes  12 ms
++   0.01s  GET  /products                    -> 200  1300 bytes  15 ms
++   0.18s  GET  /product/64                  -> 200  1876 bytes  6 ms
++   0.23s  GET  /product/291                 -> 200  2973 bytes  16 ms
++   0.32s  GET  /product/314                 -> 200  1799 bytes  10 ms
+
+=== Session S48: 9 requests, duration 0.7 s ===
++   0.00s  POST /login                       -> 200  7 bytes  27 ms
++   0.03s  GET  /product/98                  -> 200  2244 bytes  15 ms
++   0.15s  GET  /product/134                 -> 200  1794 bytes  12 ms
++   0.23s  GET  /search?q=item3              -> 200  3145 bytes  41 ms
++   0.32s  GET  /cart                        -> 200  960 bytes  9 ms
++   0.39s  GET  /search?q=item19             -> 200  2653 bytes  52 ms
++   0.55s  GET  /search?q=item35             -> 200  2387 bytes  26 ms
++   0.61s  GET  /search?q=item1              -> 200  2397 bytes  28 ms
++   0.73s  GET  /product/429                 -> 200  1715 bytes  17 ms
+
+=== Session S49: 8 requests, duration 0.7 s ===
++   0.00s  POST /login                       -> 200  7 bytes  11 ms
++   0.01s  GET  /product/9999                -> 404  9 bytes  8 ms
++   0.10s  GET  /product/93                  -> 200  1774 bytes  12 ms
++   0.25s  GET  /cart                        -> 200  960 bytes  7 ms
++   0.40s  GET  /cart                        -> 200  960 bytes  15 ms
++   0.44s  GET  /product/132                 -> 200  2924 bytes  8 ms
++   0.62s  GET  /product/130                 -> 200  2253 bytes  10 ms
++   0.70s  POST /checkout                    -> 200  12 bytes  33 ms
+
+=== Session S50: 8 requests, duration 0.8 s ===
++   0.00s  POST /login                       -> 200  7 bytes  28 ms
++   0.03s  GET  /products                    -> 200  1300 bytes  7 ms
++   0.14s  GET  /product/61                  -> 200  1612 bytes  16 ms
++   0.26s  GET  /products                    -> 200  1300 bytes  11 ms
++   0.35s  GET  /product/261                 -> 200  1960 bytes  7 ms
++   0.49s  GET  /product/263                 -> 200  2819 bytes  9 ms
++   0.64s  GET  /product/71                  -> 200  1803 bytes  17 ms
++   0.78s  GET  /products                    -> 200  1300 bytes  9 ms
+
+=== Session S51: 9 requests, duration 0.7 s ===
++   0.00s  POST /login                       -> 200  7 bytes  11 ms
++   0.01s  GET  /product/108                 -> 200  1857 bytes  11 ms
++   0.10s  GET  /products                    -> 200  1300 bytes  13 ms
++   0.21s  GET  /products                    -> 200  1300 bytes  14 ms
++   0.31s  GET  /cart                        -> 200  960 bytes  9 ms
++   0.37s  GET  /search?q=item43             -> 200  2734 bytes  48 ms
++   0.54s  GET  /product/20                  -> 200  1883 bytes  9 ms
++   0.61s  GET  /products                    -> 200  1300 bytes  16 ms
++   0.70s  GET  /search?q=item2              -> 200  2116 bytes  60 ms
+
+=== Session S52: 20 requests, duration 1.4 s ===
++   0.00s  GET  /product/351                 -> 200  2139 bytes  11 ms
++   0.06s  GET  /product/476                 -> 200  2417 bytes  12 ms
++   0.12s  GET  /product/269                 -> 200  2471 bytes  16 ms
++   0.16s  GET  /product/109                 -> 200  1658 bytes  19 ms
++   0.27s  GET  /product/169                 -> 200  2777 bytes  19 ms
++   0.34s  GET  /product/33                  -> 200  2619 bytes  13 ms
++   0.41s  GET  /product/491                 -> 200  1589 bytes  8 ms
++   0.44s  GET  /product/220                 -> 200  2948 bytes  11 ms
++   0.53s  GET  /product/265                 -> 200  2271 bytes  14 ms
++   0.61s  GET  /product/111                 -> 200  2740 bytes  10 ms
++   0.71s  GET  /product/131                 -> 200  1813 bytes  12 ms
++   0.83s  GET  /products                    -> 200  1300 bytes  10 ms
++   0.85s  GET  /products                    -> 200  1300 bytes  10 ms
++   0.94s  GET  /product/64                  -> 200  1876 bytes  8 ms
++   1.04s  GET  /product/446                 -> 200  2909 bytes  10 ms
++   1.09s  GET  /product/422                 -> 200  1921 bytes  20 ms
++   1.14s  GET  /product/3                   -> 200  2829 bytes  7 ms
++   1.22s  GET  /product/229                 -> 200  2786 bytes  8 ms
++   1.29s  GET  /product/317                 -> 200  1835 bytes  13 ms
++   1.37s  GET  /product/74                  -> 200  1654 bytes  18 ms
+
+=== Session S53: 12 requests, duration 1.2 s ===
++   0.00s  GET  /products                    -> 200  1300 bytes  8 ms
++   0.13s  GET  /cart                        -> 200  960 bytes  6 ms
++   0.21s  GET  /search?q=item14             -> 200  3952 bytes  58 ms
++   0.36s  GET  /product/8                   -> 200  2244 bytes  16 ms
++   0.46s  GET  /product/3                   -> 200  2829 bytes  9 ms
++   0.51s  GET  /search?q=item37             -> 200  2454 bytes  44 ms
++   0.63s  GET  /products                    -> 200  1300 bytes  15 ms
++   0.73s  GET  /product/263                 -> 200  2819 bytes  9 ms
++   0.79s  GET  /cart                        -> 200  960 bytes  8 ms
++   0.82s  GET  /product/9999                -> 404  9 bytes  6 ms
++   1.01s  GET  /product/312                 -> 200  2660 bytes  13 ms
++   1.17s  GET  /products                    -> 200  1300 bytes  10 ms
+
+=== Session S54: 10 requests, duration 0.9 s ===
++   0.00s  GET  /product/436                 -> 200  2272 bytes  18 ms
++   0.17s  GET  /product/207                 -> 200  2319 bytes  18 ms
++   0.25s  GET  /product/414                 -> 200  2328 bytes  13 ms
++   0.34s  GET  /product/85                  -> 200  2165 bytes  16 ms
++   0.42s  GET  /cart                        -> 200  960 bytes  4 ms
++   0.46s  GET  /product/83                  -> 200  1804 bytes  10 ms
++   0.55s  GET  /search?q=item14             -> 200  3952 bytes  28 ms
++   0.72s  GET  /product/420                 -> 200  1569 bytes  19 ms
++   0.77s  GET  /search?q=item10             -> 200  3249 bytes  54 ms
++   0.89s  GET  /search?q=item13             -> 200  3448 bytes  60 ms
+
+=== Session S55: 14 requests, duration 1.4 s ===
++   0.00s  GET  /search?q=item42             -> 200  3072 bytes  22 ms
++   0.14s  GET  /products                    -> 200  1300 bytes  11 ms
++   0.26s  GET  /product/253                 -> 200  2326 bytes  16 ms
++   0.41s  GET  /product/63                  -> 200  1862 bytes  8 ms
++   0.53s  GET  /products                    -> 200  1300 bytes  11 ms
++   0.62s  GET  /products                    -> 200  1300 bytes  5 ms
++   0.69s  GET  /product/221                 -> 200  2813 bytes  6 ms
++   0.77s  GET  /product/39                  -> 200  2922 bytes  19 ms
++   0.88s  GET  /product/9999                -> 404  9 bytes  8 ms
++   0.94s  GET  /products                    -> 200  1300 bytes  6 ms
++   0.98s  GET  /search?q=item22             -> 200  2436 bytes  52 ms
++   1.18s  GET  /product/244                 -> 200  1540 bytes  20 ms
++   1.33s  GET  /search?q=item44             -> 200  2641 bytes  49 ms
++   1.42s  GET  /products                    -> 200  1300 bytes  14 ms
+
+=== Session S56: 9 requests, duration 0.9 s ===
++   0.00s  GET  /product/20720               -> 404  9 bytes  13 ms
++   0.14s  GET  /product/73901               -> 404  9 bytes  7 ms
++   0.22s  GET  /product/16352               -> 404  9 bytes  20 ms
++   0.34s  GET  /product/81933               -> 404  9 bytes  14 ms
++   0.47s  GET  /product/22153               -> 404  9 bytes  18 ms
++   0.62s  GET  /product/30316               -> 404  9 bytes  20 ms
++   0.74s  GET  /product/85803               -> 404  9 bytes  18 ms
++   0.80s  GET  /product/44804               -> 404  9 bytes  11 ms
++   0.94s  GET  /product/94272               -> 404  9 bytes  12 ms
+
+=== Session S57: 24 requests, duration 1.0 s ===
++   0.00s  GET  /phpmyadmin                  -> 404  9 bytes  2 ms
++   0.00s  GET  /config.json                 -> 404  9 bytes  2 ms
++   0.05s  GET  /.git/config                 -> 404  9 bytes  3 ms
++   0.09s  GET  /.env                        -> 404  9 bytes  3 ms
++   0.14s  GET  /admin                       -> 404  9 bytes  4 ms
++   0.19s  GET  /.env                        -> 404  9 bytes  1 ms
++   0.23s  GET  /wp-login.php                -> 404  9 bytes  4 ms
++   0.28s  GET  /backup.zip                  -> 404  9 bytes  2 ms
++   0.33s  GET  /.git/config                 -> 404  9 bytes  6 ms
++   0.37s  GET  /backup.zip                  -> 404  9 bytes  3 ms
++   0.42s  GET  /.git/config                 -> 404  9 bytes  3 ms
++   0.47s  GET  /.env                        -> 404  9 bytes  5 ms
++   0.52s  GET  /admin                       -> 404  9 bytes  4 ms
++   0.56s  GET  /.env                        -> 404  9 bytes  4 ms
++   0.61s  GET  /wp-login.php                -> 404  9 bytes  3 ms
++   0.66s  GET  /backup.zip                  -> 404  9 bytes  3 ms
++   0.70s  GET  /wp-login.php                -> 404  9 bytes  4 ms
++   0.75s  GET  /wp-login.php                -> 404  9 bytes  3 ms
++   0.79s  GET  /config.json                 -> 404  9 bytes  6 ms
++   0.84s  GET  /server-status               -> 404  9 bytes  3 ms
++   0.89s  GET  /server-status               -> 404  9 bytes  3 ms
++   0.93s  GET  /admin                       -> 404  9 bytes  2 ms
++   0.98s  GET  /admin                       -> 404  9 bytes  3 ms
++   1.03s  GET  /.env                        -> 404  9 bytes  5 ms
+
+=== Session S58: 33 requests, duration 2.2 s ===
++   0.00s  GET  /product/14584               -> 404  9 bytes  13 ms
++   0.04s  GET  /product/15354               -> 404  9 bytes  18 ms
++   0.12s  GET  /product/14342               -> 404  9 bytes  13 ms
++   0.20s  GET  /product/31135               -> 404  9 bytes  13 ms
++   0.27s  GET  /product/79456               -> 404  9 bytes  18 ms
++   0.36s  GET  /product/45602               -> 404  9 bytes  11 ms
++   0.41s  GET  /product/85134               -> 404  9 bytes  10 ms
++   0.48s  GET  /product/76913               -> 404  9 bytes  7 ms
++   0.55s  GET  /product/77791               -> 404  9 bytes  6 ms
++   0.61s  GET  /product/45449               -> 404  9 bytes  10 ms
++   0.67s  GET  /product/25726               -> 404  9 bytes  10 ms
++   0.73s  GET  /product/41877               -> 404  9 bytes  14 ms
++   0.80s  GET  /product/74298               -> 404  9 bytes  8 ms
++   0.89s  GET  /product/71934               -> 404  9 bytes  9 ms
++   0.95s  GET  /product/97328               -> 404  9 bytes  9 ms
++   1.02s  GET  /product/72298               -> 404  9 bytes  11 ms
++   1.09s  GET  /product/75938               -> 404  9 bytes  6 ms
++   1.14s  GET  /product/4845                -> 404  9 bytes  13 ms
++   1.21s  GET  /product/48268               -> 404  9 bytes  14 ms
++   1.28s  GET  /product/13413               -> 404  9 bytes  16 ms
++   1.37s  GET  /product/96261               -> 404  9 bytes  15 ms
++   1.45s  GET  /product/60872               -> 404  9 bytes  17 ms
++   1.52s  GET  /product/82396               -> 404  9 bytes  17 ms
++   1.59s  GET  /product/85973               -> 404  9 bytes  17 ms
++   1.66s  GET  /product/76958               -> 404  9 bytes  10 ms
++   1.74s  GET  /product/30674               -> 404  9 bytes  20 ms
++   1.81s  GET  /product/19781               -> 404  9 bytes  14 ms
++   1.88s  GET  /product/26003               -> 404  9 bytes  14 ms
++   1.93s  GET  /product/43400               -> 404  9 bytes  6 ms
++   1.99s  GET  /product/55279               -> 404  9 bytes  6 ms
++   2.05s  GET  /product/9650                -> 404  9 bytes  17 ms
++   2.12s  GET  /product/14343               -> 404  9 bytes  17 ms
++   2.20s  GET  /product/37945               -> 404  9 bytes  10 ms
+
+=== Session S59: 13 requests, duration 1.2 s ===
++   0.00s  GET  /product/93                  -> 200  1774 bytes  19 ms
++   0.11s  GET  /product/73                  -> 200  2797 bytes  8 ms
++   0.21s  GET  /product/18                  -> 200  2106 bytes  10 ms
++   0.33s  GET  /product/355                 -> 200  1717 bytes  7 ms
++   0.40s  GET  /product/494                 -> 200  1595 bytes  17 ms
++   0.54s  GET  /product/44                  -> 200  2461 bytes  14 ms
++   0.63s  GET  /product/73                  -> 200  2797 bytes  11 ms
++   0.71s  GET  /product/250                 -> 200  2979 bytes  12 ms
++   0.78s  GET  /product/2                   -> 200  2152 bytes  20 ms
++   0.92s  GET  /product/93                  -> 200  1774 bytes  11 ms
++   1.07s  GET  /product/67                  -> 200  2508 bytes  6 ms
++   1.13s  GET  /product/107                 -> 200  2500 bytes  21 ms
++   1.22s  GET  /product/183                 -> 200  2738 bytes  21 ms
+
+=== Session S60: 18 requests, duration 1.6 s ===
++   0.00s  GET  /product/8                   -> 200  2244 bytes  17 ms
++   0.07s  GET  /product/203                 -> 200  2774 bytes  8 ms
++   0.18s  GET  /product/447                 -> 200  2081 bytes  13 ms
++   0.24s  GET  /product/26                  -> 200  1955 bytes  11 ms
++   0.31s  GET  /product/346                 -> 200  1737 bytes  20 ms
++   0.44s  GET  /product/251                 -> 200  2791 bytes  9 ms
++   0.55s  GET  /product/461                 -> 200  2520 bytes  11 ms
++   0.61s  GET  /product/473                 -> 200  2382 bytes  7 ms
++   0.67s  GET  /product/401                 -> 200  2183 bytes  19 ms
++   0.81s  GET  /product/296                 -> 200  2436 bytes  12 ms
++   0.94s  GET  /product/75                  -> 200  2891 bytes  13 ms
++   1.01s  GET  /product/420                 -> 200  1569 bytes  14 ms
++   1.11s  GET  /products                    -> 200  1300 bytes  14 ms
++   1.21s  GET  /product/56                  -> 200  1960 bytes  13 ms
++   1.29s  GET  /cart                        -> 200  960 bytes  7 ms
++   1.42s  GET  /product/212                 -> 200  2911 bytes  18 ms
++   1.51s  GET  /products                    -> 200  1300 bytes  7 ms
++   1.62s  GET  /product/380                 -> 200  2261 bytes  12 ms

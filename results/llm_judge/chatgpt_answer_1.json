@@ -1,0 +1,302 @@
+{
+ "S01": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "Repeated requests for the non-existent product ID 9999 are embedded in otherwise normal browsing, suggesting concealed ID probing."
+ },
+ "S02": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "The visitor follows a varied shopping pattern with only one isolated missing product request."
+ },
+ "S03": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Five consecutive failed login attempts indicate automated password guessing."
+ },
+ "S04": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Rapid sequential requests for unrelated non-existent product IDs indicate ID enumeration."
+ },
+ "S05": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The session follows a coherent shopping journey ending in checkout."
+ },
+ "S06": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "A suspicious request for product 9999 appears within otherwise normal browsing, suggesting possible probing."
+ },
+ "S07": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "Two failed login attempts followed by successful authentication and ordinary shopping are consistent with a mistyped password."
+ },
+ "S08": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Twenty-four rapid requests for unrelated non-existent product IDs indicate automated enumeration."
+ },
+ "S09": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Thirty-one rapid requests for non-existent product IDs strongly indicate automated enumeration."
+ },
+ "S10": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Repeated requests for sensitive paths such as .env, .git/config, backup.zip and phpMyAdmin indicate vulnerability scanning."
+ },
+ "S11": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The session follows a plausible shopping sequence from login through product browsing to checkout."
+ },
+ "S12": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor performs varied searches and product views without suspicious probing or repeated failures."
+ },
+ "S13": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Seventy-seven product requests in 4.3 seconds indicate high-speed automated product scraping."
+ },
+ "S14": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "Repeated browsing of product listings and individual products followed by checkout is consistent with shopping."
+ },
+ "S15": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Nine consecutive failed login attempts strongly indicate password guessing."
+ },
+ "S16": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Requests for /admin and /.env embedded in ordinary browsing indicate concealed vulnerability probing."
+ },
+ "S17": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Rapid requests for nine unrelated non-existent product IDs indicate automated enumeration."
+ },
+ "S18": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Thirty-three rapid requests for non-existent product IDs demonstrate systematic ID enumeration."
+ },
+ "S19": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "Varied searches, product views and a checkout request form a coherent shopping session."
+ },
+ "S20": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor alternates naturally between searches, product pages and cart views."
+ },
+ "S21": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Thirty-one product-page requests in two seconds, with almost no other navigation, strongly suggest automated scraping."
+ },
+ "S22": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Fifty product-page requests in 2.7 seconds indicate systematic high-speed product scraping."
+ },
+ "S23": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Twenty-two consecutive requests for unrelated non-existent product IDs indicate automated enumeration."
+ },
+ "S24": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The session contains ordinary browsing, cart checks and a successful checkout."
+ },
+ "S25": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Twenty-six rapid requests for non-existent product IDs indicate systematic enumeration."
+ },
+ "S26": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Requests for .git/config, /server-status and /wp-login.php reveal vulnerability scanning hidden within normal browsing."
+ },
+ "S27": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor follows a plausible shopping sequence with searches, product views and checkout."
+ },
+ "S28": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "Product listings, individual products and searches are accessed in a varied browsing pattern."
+ },
+ "S29": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The session contains a small number of varied product and search requests consistent with browsing."
+ },
+ "S30": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Seven consecutive failed login attempts indicate automated password guessing."
+ },
+ "S31": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Thirty-two rapid product requests with repetitive listing access strongly suggest automated scraping."
+ },
+ "S32": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "Multiple failed login attempts interspersed with successful authentication suggest suspicious credential testing."
+ },
+ "S33": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Five consecutive failed login attempts after browsing indicate password guessing."
+ },
+ "S34": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Seven consecutive failed login attempts strongly indicate password guessing."
+ },
+ "S35": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Six consecutive failed login attempts indicate automated credential guessing."
+ },
+ "S36": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Twenty-six rapid requests for unrelated non-existent product IDs indicate automated enumeration."
+ },
+ "S37": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor performs varied searches, product views and cart checks before checkout."
+ },
+ "S38": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Twenty consecutive rapid requests for non-existent product IDs indicate systematic enumeration."
+ },
+ "S39": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The session contains successful authentication, searches and ordinary product browsing."
+ },
+ "S40": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "One isolated missing product ID occurs among otherwise varied and plausible shopping requests."
+ },
+ "S41": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor browses products, searches and checks the cart before checkout."
+ },
+ "S42": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "A single missing product request among otherwise ordinary browsing is insufficient evidence of enumeration."
+ },
+ "S43": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Seventy-eight rapid product-page requests in 4.2 seconds strongly indicate automated scraping."
+ },
+ "S44": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "Four consecutive failed login attempts embedded between product requests suggest concealed credential guessing."
+ },
+ "S45": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "Several failed attempts followed by successful authentication and ordinary shopping are consistent with a user correcting credentials."
+ },
+ "S46": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "Intermittent login failures followed by successful authentication and varied shopping are consistent with ordinary credential retries."
+ },
+ "S47": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "Successful login followed by a small number of product views is consistent with ordinary browsing."
+ },
+ "S48": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor follows a varied pattern of product browsing, searching and cart access."
+ },
+ "S49": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "One isolated request for product 9999 is followed by ordinary shopping and successful checkout."
+ },
+ "S50": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The session contains successful authentication and varied product browsing without suspicious behaviour."
+ },
+ "S51": {
+  "label": "normal",
+  "confidence": 3,
+  "reason": "The visitor alternates between product listings, searches and cart access in a plausible pattern."
+ },
+ "S52": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "Twenty product-page requests in 1.4 seconds with almost no search or cart activity suggest automated scraping."
+ },
+ "S53": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "Varied browsing and searches with only one isolated missing product request suggest legitimate activity."
+ },
+ "S54": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "The visitor accesses varied product pages and performs several searches in a plausible browsing pattern."
+ },
+ "S55": {
+  "label": "normal",
+  "confidence": 2,
+  "reason": "Varied searches and product browsing with one isolated missing ID are consistent with ordinary shopping."
+ },
+ "S56": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Nine rapid requests for unrelated non-existent product IDs indicate automated enumeration."
+ },
+ "S57": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Repeated requests for sensitive configuration, administration and backup paths indicate automated vulnerability scanning."
+ },
+ "S58": {
+  "label": "attack",
+  "confidence": 3,
+  "reason": "Thirty-three rapid requests for unrelated non-existent product IDs indicate systematic enumeration."
+ },
+ "S59": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "Thirteen consecutive product-page requests with no searches, cart activity or checkout suggest automated scraping."
+ },
+ "S60": {
+  "label": "attack",
+  "confidence": 2,
+  "reason": "Rapid sequential access to numerous product pages with minimal navigation suggests automated product scraping."
+ }
+}
